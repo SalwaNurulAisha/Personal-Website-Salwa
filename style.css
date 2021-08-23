@@ -130,7 +130,7 @@ section {display: block;}
 }
 
 .card img {
-    height: 100px;
+    height: 250px;
     width: 100%;
 }
 
@@ -181,5 +181,10 @@ a:-webkit-any-link {
 
     .card span {
         font-size: 14px;
+    }
+
+    .card img {
+        height: 100px;
+        width: 100%;
     }
 }
