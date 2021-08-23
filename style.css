@@ -1,0 +1,185 @@
+head{display: none;}
+body {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #FDEFEF;
+}
+
+header {
+    display: block;
+    line-height: 30px;
+}
+
+header h2 {
+    font-size: 70px;
+    font-family: 'Brush script mt';
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    font-size: 30px;
+    margin-block-start: 25px;
+    margin-block-end: 25px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+main {
+    display: block;
+}
+
+div {display: block;}
+
+.Profile {
+    background-color: #DAD0C2;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+.Profile img {
+    height: 400px;
+    width: 370px;
+    border-radius: 50% ;
+}
+
+.Content {
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    display: block;
+    font-size: 30px;
+    margin-block-start: 30px;
+    margin-inline-end: 30px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 35px;
+    margin-block-end: 35px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+hr {
+    margin: 65px;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    margin-left: 65px;
+    margin-right: 65px;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-style: inset;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {display: block;}
+
+.card {
+    width: 30%;
+    border: 1px solid #DAD0C2;
+    border-top-color: #DAD0C2(220, 220, 220);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: #DAD0C2(220, 220, 220);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: #DAD0C2(220, 220, 220);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: #DAD0C2(220, 220, 220);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+.card img {
+    height: 100px;
+    width: 100%;
+}
+
+#contact {
+    line-height: 5px;
+}
+
+footer {
+    padding: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    display: block;
+}
+
+footer a {
+    margin: 0 20px;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+    header h2 {
+        font-size: 50px;
+    }
+   
+    .card h3{
+        font-size: 16px;
+    }
+
+    .card span {
+        font-size: 14px;
+    }
+}
